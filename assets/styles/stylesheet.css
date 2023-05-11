@@ -113,7 +113,7 @@ nav.items {
   word-wrap: break-word;
   min-width: 200px;
   height: auto;
-  font-size: 4.5em;
+  font-size: 3.2em;
   font-weight: bolder;
   text-shadow: 1px 1px 7px rgba(235, 43, 104, 0.7);
   color: var(--font-white);
@@ -671,4 +671,24 @@ fieldset {
 .accept {
   font-size: 10px;
   font-weight: lighter;
+}
+
+fieldset div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.register fieldset div input {
+  display: flex;
+  width: auto;
+}
+
+.register fieldset div label {
+  flex-grow: 9;
+}
+
+.register fieldset div label.accept {
+  width: 10%;
 }
