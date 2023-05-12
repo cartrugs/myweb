@@ -359,53 +359,61 @@ main {
   align-items: center;
   flex-direction: column;
   margin-bottom: 50px;
-  }
+}
   
-  .fotos {
+.fotos {
     width: 100%;
   }
   
-  .fotos img {
+.fotos img {
   margin-top: 5px;
-  }
+}
   
-  @media (max-width: 600px){
+@media (max-width: 600px){
   .column{
     flex: 100%;
   }
-  }
+}
+
+.audio {
+  margin-top: 6em;
+}
   
-  footer {
+.video {
+  margin: 6em;
+}
+
+footer {
   text-align: center;
-  }
+}
 
-  h2.h2-portfolio {
-    font-size: 5em;
-    margin-bottom: 2em;
-  }
+h2.h2-portfolio {
+  font-size: 5em;
+  margin-bottom: 2em;
+}
 
-  body.container-portfolio {
+body.container-portfolio {
   margin: 0 auto;
   display: block;
-  }
+}
   
-  .fotos img {
+.fotos img {
   width: 32%;
   height: auto;
   margin: 0.3%;
-  }
+}
   
-  .fotos {
+.fotos {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
   width: 100%;
-  }
+}
   
-  .fotos img:hover {
-    transform: scale(1.5);
-    border-radius: 5px;
-  }
+.fotos img:hover {
+  transform: scale(1.5);
+  border-radius: 5px;
+}
 
 
 
@@ -584,6 +592,7 @@ form.user p {
 .user input {
 display: flex;
 flex-direction: column;
+width: 100%;
 font-size: 1em;
 font-weight: bold;
 padding: 8px 22px;
@@ -701,5 +710,5 @@ fieldset div {
 }
 
 .register fieldset div label.accept {
-  width: 10%;
+  width: 100%;
 }
