@@ -336,7 +336,7 @@ header.portfolio {
   animation-direction: reverse;
   position: relative;
   @media (min-width: 768px) {
-    display: flex;
+    display: ;
     align-content: center;
     align-items: center;
     text-align: center;
@@ -345,8 +345,9 @@ header.portfolio {
 }
 
 @keyframes logoRun {
-  0% {left: 0%;}
-  50% {left: 250px}
+  0% {right: 0%}
+  10% {right: 125px}
+  50% {right: 250px}
   
 }
 
